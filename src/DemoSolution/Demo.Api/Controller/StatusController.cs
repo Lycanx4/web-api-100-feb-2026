@@ -10,8 +10,8 @@ public class StatusController : ControllerBase
     // don't do this.
     // GET ..../status
 
-    [HttpGet("/status")]
-    public StatusResponseModel GetTheStatusAsync()
+    [HttpGet("/status")] // This is using "reflection"
+    public StatusResponseModel  GetTheStatusAsync()
     {
         // call into an api, look up in a database, this is fake.
         var response = new StatusResponseModel

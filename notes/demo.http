@@ -1,7 +1,6 @@
-GET https://localhost:1337/status
+GET https://localhost:1337/status2
+
 
 ###
 
 GET https://localhost:1337/openapi/v1.json
-
-

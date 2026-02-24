@@ -1,0 +1,16 @@
+POST https://localhost:1337/vendors
+Content-Type: application/json
+Authorization: Bearer <token>
+
+{
+  "name": "Nicrosoft",
+  "url": "https://www.nicrosoft.com",
+  "pointOfContact": {
+    "name": "John Doe",
+    "email": "john.doe@nicrosoft.com",
+    "phone": "555-123-4567"
+  }
+}
+
+###
+GET https://localhost:1337/vendors/{id}

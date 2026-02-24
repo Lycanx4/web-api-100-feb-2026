@@ -2,16 +2,38 @@
 
 ## Services 
 
+- Some code that owns some data (state) and all the process around that data.
+  - roughly the same definition that Dr. Alan Kay gave when someone asked him what he meant by this new term called "object oriented"
+- Service Oriented Architecture
+  - "Microservices are just SOA done right"
+  - Services don't (shouldn't? ) share databases.
+
 ## APIs
+
+- The mechanisms through which we enable others in the company or outside to write software 
+to do the things we want them to do.
+
+- HTTP Apis - 
+  - Not a lot of creativity is required.
+  - 
 
 ## HTTP-Based APIs
 
+- Tim Berners Lee
 - RFC 2616
-- "REST", "RESTful", "Web API"
+- Roy T. Fielding - "Chief Scientist at Adobe"
+-  "REST", "RESTful", "Web API" 
+  - 
 
 ## .NET and Web API 
 
+- 1989 - T. Berners Lee creates WWW. (MS had "Windows 2" then...)
+- "Vendor Lock In"
 - 2001 - .NET with ASP.NET Web Forms and XML Web Services
+  - "The next generation tools for building XML Web Services"
+    - Anti-Vendor Lock In.
+    - SOAP - XML (cross-platform data and data structure representation!)
+      - WCF (2008)
 - 2004 - Ruby On Rails Released (MVC-like web framework)
 - 2009 - ScottGu - ASP.NET MVC
   - M - Model "business"
@@ -25,6 +47,9 @@
   - Cross Platform
   - Open Source
   - ASP.NET "Core" MVC merged the code bases for ASP.NET MVC and Web API
+
+- "Real" 4.x            (5)
+- Core - 1... 2... 3... (5)
 
 ## We are learning ASP.NET MVC 10
 
